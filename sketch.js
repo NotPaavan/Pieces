@@ -46,12 +46,12 @@ draw = function() {
     
     fill(cbR, cbG, cbB);
     textFont('Bungee', windowWidth/12);
-    text('Cold Blade', windowWidth/5, windowHeight/3);
+    text('Pieces', windowWidth/3.25, windowHeight/3);
     cbR += 3;
     cbG += 3;
     cbG += 3;
     fill(pF);
-    rect(windowWidth/4, windowHeight/2, windowWidth/8 * 3.75, 80, 10);
+    rect(windowWidth/4, windowHeight/2, windowWidth/8 * 3.75, windowHeight/14, 10);
     textSize(windowWidth/15);
     fill(173, 216, 230);
     text('Play', windowWidth/2.6, windowHeight/1.78);
